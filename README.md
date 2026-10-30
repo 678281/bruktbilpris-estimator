@@ -4,7 +4,9 @@ En nettside som estimerer markedsverdien til en bruktbil basert på merke, model
 årsmodell, kjørelengde, girkasse, drivstoff og motorstørrelse.
 Laget som prosjektoppgave i DAT158 Maskinlæring.
 
-**Prøv nettsiden:** [lenke kommer når appen er publisert]
+**Prøv nettsiden:** 
+
+https://bruktbilpris-estimator-5tmcjdappafjcqsblcj8uny.streamlit.app
 
 ## Resultater
 
@@ -31,7 +33,7 @@ Se rapporten for en fullstendig beskrivelse.
 | `data/` | Datasettet |
 | `figurer/` | Grafer brukt i rapporten |
 | `requirements.txt` | Python-pakker med versjoner |
-| `[rapport.pdf]` | Rapporten |
+| `Bruktbilpris-estimator-rapport.pdf` | Rapporten |
 
 ## Data
 
@@ -46,7 +48,7 @@ Krever Python 3.9.
 **1. Last ned repoet og installer pakkene**
 
 ```bash
-git clone [lenke til repoet]
+git clone https://github.com/678281/bruktbilpris-estimator
 cd bruktbilpris-estimator
 python3 -m venv .venv
 source .venv/bin/activate        # På Windows: .venv\Scripts\activate
@@ -97,5 +99,6 @@ Alexander Dahle
 
 - Datasett: https://www.kaggle.com/datasets/adityadesai13/used-car-dataset-ford-and-mercedes
 - scikit-learn, pandas, matplotlib og Streamlit
-- Claude (Anthropic) ble brukt som hjelp til deler av koden,
-  forklaringer av metoder, feilsøking av utviklingsmiljøet og utkast til deler av teksten.
+- Claude (Anthropic) ble brukt gjennom hele prosjektet: til å skrive og forklare
+  store deler av koden, forklare metoder, feilsøke utviklingsmiljøet og skrive
+  utkast til store deler av rapporten, som gruppen deretter gikk gjennom og redigerte.
